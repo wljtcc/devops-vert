@@ -114,9 +114,9 @@ Todas as imagens dos microsserviços serão buscadas nesse registry.
 | Parâmetro | Valor |
 |-----------|-------|
 | `storage.s3.endpoint` | `https://s3.amazonaws.com` |
-| `storage.s3.accessKey` | `AKIAZ5TC5LXEXXAF26LE` |
+| `storage.s3.accessKey` | `ID_KEY` |
 | `storage.s3.bucket` | `vert-plataformaonda-storage` |
-| `storage.s3.secretKey` | `x52VnL2fy4R98GD4eOhUGJJTwarDuy9PK8T9TWqa` |
+| `storage.s3.secretKey` | `ID_Secret` |
 | `storage.s3.signingRegion` | `us-east-2` |
 
 > 🔒 **Segurança**: As credenciais da AWS não devem ser expostas no values. Use `IRSA` ou `Secrets`.
